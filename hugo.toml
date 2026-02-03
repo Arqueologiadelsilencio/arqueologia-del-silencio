@@ -1,0 +1,33 @@
+baseURL = 'https://arqueologia-del-silencio.netlify.app/'
+languageCode = 'es-mx'
+title = 'Arqueología del Silencio'
+theme = 'PaperMod'
+
+[params]
+  description = "Explorando el silencio interior a través de la filosofía, el arte y la meditación"
+  author = "Tu Nombre"
+  
+  # Colores de tu marca (Terracota, Azul Noche, Dorado)
+  [params.homeInfoParams]
+    Title = "Bienvenido a Arqueología del Silencio"
+    Content = "Un espacio de reflexión sobre la quietud, la filosofía contemplativa y el arte de escuchar"
+
+[menu]
+  [[menu.main]]
+    identifier = "inicio"
+    name = "Inicio"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "articulos"
+    name = "Artículos"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "sobre-mi"
+    name = "Sobre Mí"
+    url = "/about/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
