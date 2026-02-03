@@ -1,4 +1,4 @@
-baseURL = 'https://arqueologia-del-silencio.netlify.app/'
+baseURL = 'https://arqueologiadelsilencio.netlify.app/'
 languageCode = 'es-mx'
 title = 'Arqueología del Silencio'
 theme = 'PaperMod'
