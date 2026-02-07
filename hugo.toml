@@ -4,30 +4,53 @@ title = 'Arqueología del Silencio'
 theme = 'PaperMod'
 
 [params]
+  # --- Configuración General ---
   description = "Explorando el silencio interior a través de la filosofía, el arte y la meditación"
   author = "Tu Nombre"
+  defaultTheme = "light"
   
-  # Colores de tu marca (Terracota, Azul Noche, Dorado)
+  # --- Opciones Visuales ---
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+  # --- Portada ---
   [params.homeInfoParams]
-    Title = "Bienvenido a Arqueología del Silencio"
-    Content = "Un espacio de reflexión sobre la quietud, la filosofía contemplativa y el arte de escuchar"
+    Title = "Rompe el silencio, encuentra tu voz."
+    Content = "Un espacio de reflexión sobre la quietud, la filosofía contemplativa y el arte de escuchar."
+
+  # --- Redes Sociales ---
+  [[params.socialIcons]]
+    name = "telegram"
+    url = "https://t.me/tu_canal"
+
+  [params.assets]
+    disableHLJS = true
+    # Esto es vital para que NO falle al procesar CSS
 
 [menu]
   [[menu.main]]
-    identifier = "inicio"
-    name = "Inicio"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "articulos"
-    name = "Artículos"
+    identifier = "explorar"
+    name = "Explorar"
     url = "/posts/"
-    weight = 2
+    weight = 10
   [[menu.main]]
-    identifier = "sobre-mi"
-    name = "Sobre Mí"
+    identifier = "voces"
+    name = "Voces"
+    url = "/videos/"
+    weight = 20
+  [[menu.main]]
+    identifier = "recursos"
+    name = "Recursos"
+    url = "/recursos/"
+    weight = 30
+  [[menu.main]]
+    identifier = "manifiesto"
+    name = "El Manifiesto"
     url = "/about/"
-    weight = 3
+    weight = 40
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+

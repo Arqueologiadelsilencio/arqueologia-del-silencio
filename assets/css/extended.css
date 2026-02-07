@@ -1,0 +1,111 @@
+/* =========================================
+   ARQUEOLOGÍA DEL SILENCIO - VERSIÓN FINAL
+   (Basada en prototipo.html adjunto)
+   ========================================= */
+
+/* 1. Importamos las fuentes EXACTAS del prototipo */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Caveat&display=swap');
+
+:root {
+    /* Paleta del Prototipo */
+    --fondo: #FDFBF7;       /* Blanco Hueso */
+    --texto: #1A202C;       /* Azul Noche */
+    --accion: #E07A5F;      /* Terracota */
+    --mistico: #D4AF37;     /* Dorado */
+    --blanco: #ffffff;
+    
+    /* Mapeo para PaperMod (Para que use nuestros colores) */
+    --theme: var(--fondo) !important;
+    --entry: var(--blanco) !important;
+    --primary: var(--texto) !important;
+    --secondary: #4A5568 !important;
+    --content: var(--texto) !important;
+}
+
+/* 2. TIPOGRAFÍA (La clave de la elegancia) */
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    color: var(--texto) !important;
+    line-height: 1.6;
+    font-size: 18px; /* Un poco más grande para lectura cómoda */
+}
+
+/* Títulos generales (Artículos) siguen siendo elegantes */
+h1, h2, h3, h4, .entry-title, .post-title {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 700;
+    color: var(--texto);
+}
+
+/* --- Título del Sitio (Logo) en Cursiva y Terracota --- */
+.logo a {
+    font-family: 'Caveat', cursive !important;
+    font-size: 2.8rem !important; /* Un pelín más grande para lucir el color */
+    font-weight: 700;
+        
+    /* AQUÍ ESTÁ EL CAMBIO: Usamos la variable de terracota */
+        color: var(--accion) !important; 
+        
+        letter-spacing: 0px;
+        text-shadow: none; /* Quitamos sombra para que el color se vea puro */
+        display: inline-block;
+        padding-top: 5px; /* Un pequeño aire arriba */
+}
+
+/* Subtítulos o Metadatos en Cursiva (Caveat) - ¡El toque mágico! */
+.entry-isdraft, .entry-date, .breadcrumbs, blockquote {
+    font-family: 'Caveat', cursive !important;
+    font-size: 1.3rem !important;
+    color: var(--accion) !important; /* Terracota */
+}
+
+/* 3. ESTILO DE TARJETAS (Como en el prototipo) */
+.post-entry {
+    background: var(--blanco) !important;
+    border: none !important;
+    border-left: 5px solid var(--accion) !important; /* Borde Terracota a la izquierda */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-5px); /* Efecto de levitación */
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+/* 4. BOTONES Y ENLACES */
+a {
+    color: var(--texto);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Botones "Leer más" o enlaces dentro del texto */
+.entry-content a, .post-entry a {
+    color: var(--texto);
+    font-weight: bold;
+    border-bottom: 2px solid var(--mistico); /* Subrayado Dorado */
+}
+
+.entry-content a:hover, .post-entry a:hover {
+    color: var(--accion);
+    border-bottom-color: var(--accion);
+}
+
+/* 5. CABECERA Y BUSCADOR */
+.header {
+    background: var(--fondo) !important;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3) !important; /* Línea dorada */
+}
+
+/* Ajuste para que el menú se vea limpio */
+.menu a {
+    font-family: 'Lato', sans-serif !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
