@@ -6,50 +6,92 @@ theme = 'PaperMod'
 [params]
   # --- Configuración General ---
   description = "Explorando el silencio interior a través de la filosofía, el arte y la meditación"
-  author = "Tu Nombre"
+  author = "Arqueología del Silencio"
   defaultTheme = "light"
+  disableThemeToggle = false
   
   # --- Opciones Visuales ---
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-
-  # --- Portada ---
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  
+  # --- Portada Mejorada ---
   [params.homeInfoParams]
-    Title = "Rompe el silencio, encuentra tu voz."
-    Content = "Un espacio de reflexión sobre la quietud, la filosofía contemplativa y el arte de escuchar."
+    Title = "🏺 Rompe el silencio, encuentra tu voz"
+    Content = """
+Un espacio de reflexión sobre la quietud, la filosofía contemplativa y el arte de escuchar.  
+Cada artículo es una excavación hacia la profundidad del ser.
+"""
 
+  # --- Perfil del Autor (opcional) ---
+  [params.profileMode]
+    enabled = false  # cambiar a true si quieres modo perfil en home
+    
   # --- Redes Sociales ---
   [[params.socialIcons]]
     name = "telegram"
-    url = "https://t.me/tu_canal"
+    url = "https://t.me/arqueologiadelsilencio"
 
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  # --- Assets ---
   [params.assets]
-    disableHLJS = true
-    # Esto es vital para que NO falle al procesar CSS
+    disableHLJS = false
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+
 
 [menu]
+  # --- El Corazón del Contenido ---
   [[menu.main]]
-    identifier = "explorar"
-    name = "Explorar"
+    identifier = "bitacora"
+    name = "Blog" 
     url = "/posts/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "empieza"
+    name = "Empieza Aquí"
+    url = "/empieza-aqui/"
+    weight = 15
+
   [[menu.main]]
     identifier = "voces"
     name = "Voces"
     url = "/videos/"
     weight = 20
+
   [[menu.main]]
-    identifier = "recursos"
-    name = "Recursos"
+    identifier = "excavacion"
+    name = "Recursos" # Tus Recursos/PDFs
     url = "/recursos/"
     weight = 30
+
+  # --- Identidad y Contacto ---
   [[menu.main]]
     identifier = "manifiesto"
-    name = "El Manifiesto"
+    name = "Sobre mi"
     url = "/about/"
     weight = 40
+
+  [[menu.main]]
+    identifier = "conexion"
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 50
+
+  # --- El Buscador Global ---
+  [[menu.main]]
+    identifier = "buscar"
+    name = "🔍 Buscar"
+    url = "/search/"
+    weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

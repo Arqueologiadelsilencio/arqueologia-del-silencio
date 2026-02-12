@@ -1,0 +1,284 @@
+/* === ARQUEOLOGÍA DEL SILENCIO - Identidad Visual === */
+
+/* ========== MODO CLARO ========== */
+:root {
+    --burgundy: #800020;
+    --azul-noche: #1A2332;
+    --dorado: #D4AF37;
+    --fondo-claro: #EFD9B4;
+    --texto-oscuro: #2C2C2C;
+    --gris-suave: #8B8B8B;
+}
+
+body {
+    background-color: var(--fondo-claro);
+    color: var(--texto-oscuro);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: var(--azul-noche);
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    color: var(--azul-noche);
+    font-weight: 700;
+}
+
+a {
+    color: var(--burgundy);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--dorado);
+}
+
+.first-entry {
+    background: linear-gradient(135deg, #1A2332 0%, #2A3F5F 100%);
+    border: 2px solid var(--dorado);
+    border-radius: 12px;
+}
+
+.first-entry .entry-header h1 {
+    color: #D4AF37 !important;
+    font-size: 2.5rem;
+}
+
+.first-entry .post-description {
+    color: #FAF8F5;
+}
+
+.post-entry {
+    border-left: 4px solid var(--burgundy);
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.post-entry:hover {
+    transform: translateX(8px);
+    border-left-color: var(--dorado);
+}
+
+.breadcrumbs a {
+    color: var(--burgundy);
+}
+
+.breadcrumbs a:hover {
+    color: var(--dorado);
+}
+
+footer {
+    background: #1A2332;
+    color: #FAF8F5;
+}
+
+footer a {
+    color: #D4AF37;
+}
+
+.top-link {
+    background: var(--burgundy);
+}
+
+.top-link:hover {
+    background: var(--dorado);
+}
+
+/* ========== MODO OSCURO - CON SELECTOR CORRECTO ========== */
+
+[data-theme="dark"] {
+    --burgundy-dark: #FF8C42;
+    --dorado-dark: #FFD700;
+}
+
+[data-theme="dark"] body {
+    background-color: #0D0D0D !important;
+    color: #FFFFFF !important;
+}
+
+[data-theme="dark"] .main {
+    background-color: #0D0D0D !important;
+}
+
+/* Títulos en BLANCO PURO */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: #FFFFFF !important;
+}
+
+/* Enlaces en NARANJA BRILLANTE */
+[data-theme="dark"] a {
+    color: #FF8C42 !important;
+    font-weight: 600;
+}
+
+[data-theme="dark"] a:hover {
+    color: #FFD700 !important;
+}
+
+/* Hero section con fondo más claro */
+[data-theme="dark"] .first-entry {
+    background: linear-gradient(135deg, #2A4563 0%, #1E3A5F 100%) !important;
+    border: 3px solid #FFD700 !important;
+}
+
+[data-theme="dark"] .first-entry .entry-header h1 {
+    color: #FFD700 !important;
+}
+
+[data-theme="dark"] .first-entry .post-description {
+    color: #FFFFFF !important;
+    font-size: 1.1rem;
+}
+
+/* Cards con borde NARANJA BRILLANTE */
+[data-theme="dark"] .post-entry {
+    border-left: 5px solid #FF8C42 !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+[data-theme="dark"] .post-entry:hover {
+    border-left-color: #FFD700 !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    transform: translateX(10px);
+}
+
+[data-theme="dark"] .post-entry .entry-header h2 {
+    color: #FFFFFF !important;
+}
+
+/* Texto de posts en BLANCO */
+[data-theme="dark"] .post-entry .entry-content,
+[data-theme="dark"] .post-entry .entry-summary,
+[data-theme="dark"] .post-content,
+[data-theme="dark"] .post-description,
+[data-theme="dark"] p,
+[data-theme="dark"] article,
+[data-theme="dark"] li {
+    color: #FFFFFF !important;
+}
+
+/* Meta en gris CLARO */
+[data-theme="dark"] .post-meta,
+[data-theme="dark"] .post-meta span {
+    color: #CCCCCC !important;
+}
+
+[data-theme="dark"] .post-meta a {
+    color: #FF8C42 !important;
+}
+
+[data-theme="dark"] .post-meta a:hover {
+    color: #FFD700 !important;
+}
+
+/* Breadcrumbs */
+[data-theme="dark"] .breadcrumbs a {
+    color: #FF8C42 !important;
+}
+
+[data-theme="dark"] .breadcrumbs a:hover {
+    color: #FFD700 !important;
+}
+
+/* Footer más oscuro */
+[data-theme="dark"] footer {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+[data-theme="dark"] footer a {
+    color: #FFD700 !important;
+}
+
+/* Botón scroll NARANJA */
+[data-theme="dark"] .top-link {
+    background: #FF8C42 !important;
+    color: #000000 !important;
+}
+
+[data-theme="dark"] .top-link:hover {
+    background: #FFD700 !important;
+}
+
+/* Menú navegación */
+[data-theme="dark"] .nav a {
+    color: #FFFFFF !important;
+}
+
+[data-theme="dark"] .nav a:hover {
+    color: #FFD700 !important;
+}
+
+[data-theme="dark"] header {
+    background: rgba(13, 13, 13, 0.98) !important;
+    border-bottom: 1px solid #333333;
+}
+
+[data-theme="dark"] .logo a {
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+/* Botones y elementos interactivos */
+[data-theme="dark"] button,
+[data-theme="dark"] .share-buttons a {
+    color: #FF8C42 !important;
+}
+
+[data-theme="dark"] button:hover,
+[data-theme="dark"] .share-buttons a:hover {
+    color: #FFD700 !important;
+}
+
+/* ========== ELIMINAR CAJAS NEGRAS INTERNAS ========== */
+
+/* Hero - eliminar TODOS los fondos internos */
+[data-theme="dark"] .first-entry * {
+    background: transparent !important;
+}
+
+[data-theme="dark"] .first-entry {
+    background: linear-gradient(135deg, rgba(42, 69, 99, 0.3) 0%, rgba(30, 58, 95, 0.3) 100%) !important;
+    border: 2px solid #FFD700 !important;
+}
+
+/* Cards - eliminar TODOS los fondos internos */
+[data-theme="dark"] .post-entry * {
+    background: transparent !important;
+}
+
+[data-theme="dark"] .post-entry {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-left: 5px solid #FF8C42 !important;
+}
+
+[data-theme="dark"] .post-entry:hover {
+    background: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Fecha específica */
+[data-theme="dark"] .post-meta time,
+[data-theme="dark"] .post-meta .post-author {
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* Iconos sociales sin fondo */
+[data-theme="dark"] .social-icons svg,
+[data-theme="dark"] .social-icons a {
+    background: transparent !important;
+}
+
+/* Ocultar iconos sociales del hero (solo mostrar en footer) */
+.first-entry .social-icons {
+    display: none !important;
+}
