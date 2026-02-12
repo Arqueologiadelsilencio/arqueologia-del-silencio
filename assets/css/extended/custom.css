@@ -5,13 +5,13 @@
     --burgundy: #800020;
     --azul-noche: #1A2332;
     --dorado: #D4AF37;
-    --fondo-claro: #EFD9B4;
+    --fondo-claro: #ffcc99;
     --texto-oscuro: #2C2C2C;
     --gris-suave: #8B8B8B;
 }
 
 body {
-    background-color: var(--fondo-claro);
+    background-color: var(--fondo-claro) !important;
     color: var(--texto-oscuro);
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
 }
