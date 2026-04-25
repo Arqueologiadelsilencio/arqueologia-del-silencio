@@ -218,8 +218,8 @@
     <header>
         <h1>Arqueología del Silencio</h1>
         <div class="subtitle">
-            <span class="lang-es">Huellas de lo eterno</span>
-            <span class="lang-de">Spuren des Ewigen</span>
+            <span class="lang-es">Explorando la historia y la quietud del alma</span>
+            <span class="lang-de">Erforschung der Geschichte und der Stille der Seele</span>
         </div>
     </header>
 
@@ -248,13 +248,14 @@
             <div class="announcement">
                 <h3>
                     <span class="lang-es">Próxima Meditación online</span>
-                    <span class="lang-de">Nächste Live-Meditation</span>
+                    <span class="lang-de">Nächste Online-Meditation</span>
                 </h3>
                 <p>
-                    <span class="lang-es">Únete a nuestra próxima sesión guiada este domingo. Durante una hora intercambiaremos experiencias de nuestor progreso de las meditaciones 
-                                          semanales a traves de técnicas antiguas. Unete con nosotros por Telegram.</span>
-                    <span class="lang-de">Nimm an unserer nächsten geführten Sitzung an diesem Sonntag teil. Eine Stunde lang werden wir Erfahrungen über unsere Fortschritte bei den 
-                                          wöchentlichen Meditationen durch alte Techniken austauschen. Tritt uns über Telegram bei.</span>
+                    <span class="lang-es">Te invitamos a nuestra próxima sesión este domingo. Comenzaremos la primera parte explorando un tema específico de meditaciTe invitamos a nuestra próxima sesión este domingo. Comenzaremos la primera parte explorando un tema específico sobre la práctica meditativa y charlando sobre las dudas que os hayan surgido durante la semana. Después, pasaremos a la segunda parte: una meditación guiada basada en técnicas de las tradiciones antiguas. Para terminar, dejaremos un breve espacio abierto para comentarios y preguntas finales. Únete a través de nuestro grupo de Telegram y acompáñanos en este rato de práctica compartida.n y 
+                                          charlando sobre las dudas que os hayan surgido durante la semana. 
+                                          Después, pasaremos a la segunda parte: una meditación guiada basada en técnicas de las tradiciones antiguas. Para terminar, 
+                                          dejaremos un breve espacio abierto para comentarios y preguntas finales. Únete a través de nuestro grupo de Telegram y acompáñanos en este rato de práctica compartida..</span>
+                    <span class="lang-de">Nehmen Sie an unserer nächsten geführten Sitzung an diesem Samstag teil. Buchen Sie Ihren Platz per Telegram.</span>
                 </p>
             </div>
 
@@ -275,8 +276,8 @@
             <ul class="post-list" id="all-posts">
                 <li class="post-item espiritualidad">
                     <a href="#" class="post-title">
-                        <span class="lang-es">Próximamente</span>
-                        <span class="lang-de">Demnächst</span>
+                        <span class="lang-es">Meditación Guiada: El Silencio Interior</span>
+                        <span class="lang-de">Geführte Meditation: Die innere Stille</span>
                     </a>
                     <div class="post-meta">
                         <span class="tag espiritualidad"><span class="lang-es">Espiritualidad</span><span class="lang-de">Spiritualität</span></span> 
@@ -285,8 +286,8 @@
                 </li>
                 <li class="post-item historia">
                     <a href="#" class="post-title">
-                        <span class="lang-es">Próximamente</span>
-                        <span class="lang-de">Demnächst</span>
+                        <span class="lang-es">Los orígenes del estoicismo en la Antigua Grecia</span>
+                        <span class="lang-de">Die Ursprünge der Stoa im antiken Griechenland</span>
                     </a>
                     <div class="post-meta">
                         <span class="tag historia"><span class="lang-es">Historia</span><span class="lang-de">Geschichte</span></span> 
@@ -295,8 +296,8 @@
                 </li>
                 <li class="post-item espiritualidad">
                     <a href="#" class="post-title">
-                        <span class="lang-es">Próximamente</span>
-                        <span class="lang-de">Demnächst</span>
+                        <span class="lang-es">Práctica de respiración para la ansiedad</span>
+                        <span class="lang-de">Atemübung bei Angstzuständen</span>
                     </a>
                     <div class="post-meta">
                         <span class="tag espiritualidad"><span class="lang-es">Espiritualidad</span><span class="lang-de">Spiritualität</span></span> 
@@ -305,8 +306,8 @@
                 </li>
                 <li class="post-item historia">
                     <a href="#" class="post-title">
-                        <span class="lang-es">Próximamente</span>
-                        <span class="lang-de">Demnächst</span>
+                        <span class="lang-es">El descubrimiento de Göbekli Tepe</span>
+                        <span class="lang-de">Die Entdeckung von Göbekli Tepe</span>
                     </a>
                     <div class="post-meta">
                         <span class="tag historia"><span class="lang-es">Historia</span><span class="lang-de">Geschichte</span></span> 
@@ -322,12 +323,12 @@
                 <span class="lang-de">Private Meditationen & Kontakt</span>
             </h2>
             <p>
-                <span class="lang-es">Si deseas agendar una sesión de meditación privada o simplemente ponerte en contacto, envíame un correo electrónico</span>
-                <span class="lang-de">Wenn Sie eine private Meditationssitzung vereinbaren oder einfach Kontakt aufnehmen möchten, Schick mir eine E-Mail.</span>
+                <span class="lang-es">Si deseas agendar una sesión de meditación privada o simplemente ponerte en contacto, la vía más directa y privada es a través de Telegram.</span>
+                <span class="lang-de">Wenn Sie eine private Meditationssitzung vereinbaren oder einfach Kontakt aufnehmen möchten, ist Telegram der direkteste und privateste Weg.</span>
             </p>
-            <a href="mailto:contactoarqueologia@proton.me" target="_blank" class="btn-telegram">
-                <span class="lang-es">Enviame un E-Mail</span>
-                <span class="lang-de">Schick mir eine E-Mail</span>
+            <a href="https://t.me/tu_usuario" target="_blank" class="btn-telegram">
+                <span class="lang-es">Contactar por Telegram</span>
+                <span class="lang-de">Kontakt via Telegram</span>
             </a>
         </div>
     </main>
